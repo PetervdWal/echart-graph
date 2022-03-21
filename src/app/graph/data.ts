@@ -59,7 +59,7 @@ export const electricity = [
       },
       {
         name: 'Teruglevering',
-        value: 100,
+        value: -100,
       },
     ],
   },

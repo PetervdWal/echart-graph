@@ -5,9 +5,10 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GraphComponent } from './graph/graph.component';
+import { GraphContainerComponent } from './graph-container/graph-container.component';
 
 @NgModule({
-  declarations: [AppComponent, GraphComponent],
+  declarations: [AppComponent, GraphComponent, GraphContainerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
